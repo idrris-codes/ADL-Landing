@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="ADL — магазин строительных материалов. Онлайн-каталог для выбора материалов для ремонта, отделки и строительства." />
+  <title>ADL — строительные материалы</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="theme-dark locked">
+  <div class="language-gate" id="languageGate" aria-label="Выбор языка">
+    <div class="gate-light gate-light-a"></div>
+    <div class="gate-light gate-light-b"></div>
+    <div class="gate-card">
+      <div class="gate-logo">ADL</div>
+      <p class="gate-kicker" data-gate="kicker">Магазин строительных материалов</p>
+      <h1 data-gate="title">Выберите язык</h1>
+      <p data-gate="text">Откройте официальную страницу ADL и перейдите к онлайн-каталогу строительных материалов.</p>
+      <div class="gate-actions">
+        <button type="button" class="gate-btn" data-lang="ru">Русский</button>
+        <button type="button" class="gate-btn" data-lang="tj">Тоҷикӣ</button>
+        <button type="button" class="gate-btn" data-lang="en">English</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header" id="top">
+    <a class="brand" href="#top" aria-label="ADL">
+      <span>ADL</span>
+      <small data-i18n="brandSub">строительные материалы</small>
+    </a>
+
+    <nav class="nav" id="navMenu" aria-label="Навигация">
+      <a href="#catalog" data-i18n="navCatalog">Каталог</a>
+      <a href="#advantages" data-i18n="navAdvantages">Преимущества</a>
+      <a href="#assortment" data-i18n="navAssortment">Ассортимент</a>
+      <a href="#steps" data-i18n="navSteps">Как выбрать</a>
+      <a href="#contacts" data-i18n="navContacts">Контакты</a>
+    </nav>
+
+    <div class="header-actions">
+      <a class="header-cta" href="https://adonline.tj" target="_blank" rel="noopener noreferrer" data-i18n="btnViewCatalog">Посмотреть каталог</a>
+      <button class="utility-btn" id="languageBtn" type="button" aria-label="Сменить язык">RU</button>
+      <button class="utility-btn" id="themeBtn" type="button" aria-label="Сменить тему">☀</button>
+      <button class="menu-btn" id="menuBtn" type="button" aria-label="Открыть меню"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section-pad">
+      <div class="hero-ambient"></div>
+      <div class="hero-copy reveal from-left">
+        <p class="eyebrow" data-i18n="heroEyebrow">Официальный онлайн-каталог ADL</p>
+        <h1 data-i18n="heroTitle">Строительные материалы для ремонта, отделки и строительства</h1>
+        <p class="hero-lead" data-i18n="heroText">ADL предоставляет удобный доступ к ассортименту строительных материалов. Откройте каталог, выберите нужные категории и продолжите оформление заказа удобным способом.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://adonline.tj" target="_blank" rel="noopener noreferrer" data-i18n="btnViewCatalog">Посмотреть каталог</a>
+          <a class="btn btn-secondary" href="#advantages" data-i18n="btnAdvantages">Узнать преимущества</a>
+        </div>
+        <div class="hero-note" data-i18n="heroNote">Каталог доступен с телефона, планшета и компьютера.</div>
+      </div>
+
+      <div class="hero-visual reveal from-right" aria-label="Каталог ADL">
+        <div class="catalog-device">
+          <div class="device-bar">
+            <div class="dots"><span></span><span></span><span></span></div>
+            <b>adonline.tj</b>
+          </div>
+          <div class="device-head">
+            <div>
+              <small data-i18n="deviceLabel">Онлайн-каталог</small>
+              <strong>ADL</strong>
+            </div>
+            <a href="https://adonline.tj" target="_blank" rel="noopener noreferrer" data-i18n="deviceOpen">Открыть</a>
+          </div>
+          <div class="device-list">
+            <a href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span data-i18n="deviceItem1">Сухие смеси</span><em data-i18n="deviceTag1">для ремонтных работ</em></a>
+            <a href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span data-i18n="deviceItem2">Отделочные материалы</span><em data-i18n="deviceTag2">для интерьера и фасада</em></a>
+            <a href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span data-i18n="deviceItem3">Инструменты</span><em data-i18n="deviceTag3">для мастеров и объектов</em></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="advantages">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="advEyebrow">Преимущества ADL</p>
+        <h2 data-i18n="advTitle">Удобный выбор материалов для частных и профессиональных задач</h2>
+        <p data-i18n="advText">ADL делает переход к ассортименту быстрым и понятным: клиент сразу открывает каталог, выбирает нужную категорию и получает доступ к товарам магазина.</p>
+      </div>
+      <div class="cards-grid advantages-grid">
+        <article class="info-card reveal pop"><span class="card-icon">01</span><h3 data-i18n="adv1Title">Онлайн-каталог</h3><p data-i18n="adv1Text">Ассортимент представлен в цифровом формате, чтобы покупатель мог просматривать товары без лишних действий.</p></article>
+        <article class="info-card reveal pop"><span class="card-icon">02</span><h3 data-i18n="adv2Title">Понятные категории</h3><p data-i18n="adv2Text">Разделы помогают быстрее найти материалы для ремонта, отделки, монтажа и строительных работ.</p></article>
+        <article class="info-card reveal pop"><span class="card-icon">03</span><h3 data-i18n="adv3Title">Быстрый переход</h3><p data-i18n="adv3Text">Ключевые кнопки ведут прямо в каталог ADL, поэтому путь к выбору товаров остаётся коротким.</p></article>
+        <article class="info-card reveal pop"><span class="card-icon">04</span><h3 data-i18n="adv4Title">Официальная подача</h3><p data-i18n="adv4Text">Информация оформлена ясно и аккуратно, чтобы клиент быстро понимал назначение магазина и каталога.</p></article>
+      </div>
+    </section>
+
+    <section class="section-pad catalog-section" id="catalog">
+      <div class="catalog-copy reveal from-left">
+        <p class="eyebrow" data-i18n="catalogEyebrow">Каталог ADL</p>
+        <h2 data-i18n="catalogTitle">Ассортимент магазина доступен онлайн</h2>
+        <p data-i18n="catalogText">В каталоге ADL можно перейти к основным группам товаров, ознакомиться с ассортиментом и выбрать строительные материалы для ремонта, отделки или объекта.</p>
+        <ul class="check-list">
+          <li data-i18n="catalogPoint1">материалы распределены по понятным категориям;</li>
+          <li data-i18n="catalogPoint2">каталог открывается на любом устройстве;</li>
+          <li data-i18n="catalogPoint3">переход к товарам занимает минимум времени;</li>
+          <li data-i18n="catalogPoint4">после выбора можно связаться с магазином удобным способом.</li>
+        </ul>
+        <a class="btn btn-primary" href="https://adonline.tj" target="_blank" rel="noopener noreferrer" data-i18n="btnOpenOnline">Открыть онлайн-каталог</a>
+      </div>
+      <div class="catalog-board reveal from-right">
+        <a class="board-row" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span data-i18n="board1">Материалы для отделки</span><i></i></a>
+        <a class="board-row" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span data-i18n="board2">Смеси и строительная химия</span><i></i></a>
+        <a class="board-row" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span data-i18n="board3">Инструменты и расходники</span><i></i></a>
+        <a class="board-row" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span data-i18n="board4">Электрика и сантехника</span><i></i></a>
+      </div>
+    </section>
+
+    <section class="section-pad section-panel" id="assortment">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="assortEyebrow">Ассортимент</p>
+        <h2 data-i18n="assortTitle">Основные направления товаров</h2>
+        <p data-i18n="assortText">Категории каталога помогают быстрее ориентироваться в материалах для ремонта, отделки, монтажа и строительства.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card reveal pop" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span class="cat-icon" aria-hidden="true">🏗️</span><strong data-i18n="cat1">Цемент и сухие смеси</strong></a>
+        <a class="category-card reveal pop" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span class="cat-icon" aria-hidden="true">🧱</span><strong data-i18n="cat2">Кирпич и блоки</strong></a>
+        <a class="category-card reveal pop" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span class="cat-icon" aria-hidden="true">🎨</span><strong data-i18n="cat3">Краски и отделочные материалы</strong></a>
+        <a class="category-card reveal pop" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span class="cat-icon" aria-hidden="true">🛠️</span><strong data-i18n="cat4">Инструменты</strong></a>
+        <a class="category-card reveal pop" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span class="cat-icon" aria-hidden="true">🚿</span><strong data-i18n="cat5">Сантехника</strong></a>
+        <a class="category-card reveal pop" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span class="cat-icon" aria-hidden="true">⚡</span><strong data-i18n="cat6">Электрика</strong></a>
+        <a class="category-card reveal pop" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span class="cat-icon" aria-hidden="true">🔩</span><strong data-i18n="cat7">Крепёж и расходники</strong></a>
+        <a class="category-card reveal pop" href="https://adonline.tj" target="_blank" rel="noopener noreferrer"><span class="cat-icon" aria-hidden="true">🏠</span><strong data-i18n="cat8">Материалы для ремонта</strong></a>
+      </div>
+      <div class="center reveal"><a class="btn btn-primary" href="https://adonline.tj" target="_blank" rel="noopener noreferrer" data-i18n="btnWholeCatalog">Смотреть ассортимент</a></div>
+    </section>
+
+    <section class="section-pad steps-section" id="steps">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="stepsEyebrow">Как выбрать</p>
+        <h2 data-i18n="stepsTitle">Три шага к нужным материалам</h2>
+      </div>
+      <div class="steps-grid">
+        <article class="step-card reveal"><b>01</b><h3 data-i18n="step1Title">Откройте каталог</h3><p data-i18n="step1Text">Перейдите на adonline.tj и выберите нужный раздел ассортимента ADL.</p></article>
+        <article class="step-card reveal"><b>02</b><h3 data-i18n="step2Title">Выберите материалы</h3><p data-i18n="step2Text">Просмотрите категории и определите позиции, которые подходят для вашей задачи.</p></article>
+        <article class="step-card reveal"><b>03</b><h3 data-i18n="step3Title">Свяжитесь с ADL</h3><p data-i18n="step3Text">Уточните детали заказа и продолжите оформление удобным способом.</p></article>
+      </div>
+    </section>
+
+    <section class="section-pad cta-section">
+      <div class="cta-box reveal">
+        <p class="eyebrow" data-i18n="ctaEyebrow">Перейдите к ассортименту</p>
+        <h2 data-i18n="ctaTitle">Откройте каталог ADL и выберите материалы для вашего объекта</h2>
+        <p data-i18n="ctaText">Онлайн-каталог помогает быстро перейти к товарам и продолжить выбор без ожидания консультации.</p>
+        <a class="btn btn-primary btn-big" href="https://adonline.tj" target="_blank" rel="noopener noreferrer" data-i18n="btnADLCatalog">Посмотреть каталог ADL</a>
+      </div>
+    </section>
+
+    <section class="section-pad socials" id="contacts">
+      <div class="section-head reveal">
+        <p class="eyebrow" data-i18n="socialEyebrow">Контакты</p>
+        <h2 data-i18n="socialTitle">ADL в социальных сетях</h2>
+        <p data-i18n="socialText">Следите за обновлениями магазина, новыми позициями и информацией об ассортименте ADL.</p>
+      </div>
+      <div class="social-links">
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div>
+      <strong>ADL</strong>
+      <p data-i18n="footerText">Магазин строительных материалов с удобным переходом к онлайн-каталогу товаров.</p>
+    </div>
+    <div class="footer-links">
+      <a href="#catalog" data-i18n="navCatalog">Каталог</a>
+      <a href="#advantages" data-i18n="navAdvantages">Преимущества</a>
+      <a href="#contacts" data-i18n="navContacts">Контакты</a>
+      <a href="https://adonline.tj" target="_blank" rel="noopener noreferrer" data-i18n="btnViewCatalog">Посмотреть каталог</a>
+      <div class="footer-socials" aria-label="Социальные сети ADL">
+        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">Instagram</a>
+        <a href="https://t.me/" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a href="https://wa.me/" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> ADL. <span data-i18n="copyright">Все права защищены.</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
